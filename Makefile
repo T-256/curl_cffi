@@ -11,7 +11,7 @@ $(CURL_VERSION):
 	tar -xf $(CURL_VERSION).tar.xz
 
 curl-impersonate-$(VERSION)/chrome/patches: $(CURL_VERSION)
-	curl -L "https://github.com/yifeikong/curl-impersonate/archive/refs/tags/v$(VERSION).tar.gz" \
+	curl -L "https://github.com/T-256/curl-impersonate/archive/refs/tags/v$(VERSION).tar.gz" \
 		-o "curl-impersonate-$(VERSION).tar.gz"
 	tar -xf curl-impersonate-$(VERSION).tar.gz
 
