@@ -42,17 +42,6 @@
         "libdir": "",
         "sysname": "linux",
         "link_type": "static",
-        "libc": "gnu",
-        "so_name": "libcurl-impersonate-chrome.so",
-        "so_arch": "x86_64"
-    },
-    {
-        "system": "Linux",
-        "machine": "x86_64",
-        "pointer_size": 64,
-        "libdir": "",
-        "sysname": "linux",
-        "link_type": "static",
         "libc": "musl",
         "so_name": "libcurl-impersonate-chrome.so",
         "so_arch": "x86_64"
